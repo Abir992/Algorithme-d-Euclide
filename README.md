@@ -1,2 +1,2 @@
 # Algorithme-d-Euclide
-deux exercices
+deux exercices, le premier c'est le PGCD le deuxieme sur les coeficient de bezout
