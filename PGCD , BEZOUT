@@ -22,11 +22,10 @@ def bezout(a,b):
         q = r1//r2
         r1 , r2 = r2 , r1%r2
         u1 , v1 , u2 , v2 = u2 , v2 , u1 - q*u2 , v1-q*v2
-    print(" le pgcd de ", a ,"et",b , "c'est :",r2,"\n les coeficient de bezout sont :","u = ", u2,"v = ",v2)
+    print("Bezout",(a,b),"#PGCD:",r2,"(u=" , u2 ,") *",b,"+ (v=" ,v2,") *",a," = ",r2)
 
 bezout(2016,1600)
 
 Affichage :
 
-le pgcd de  2016 et 1600 c'est : 32 
- les coeficient de bezout sont : u =  -23 v =  29
+Bezout (2016, 1600) #PGCD: 32 (u= -23 ) * 1600 + (v= 29 ) * 2016  =  32
